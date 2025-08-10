@@ -11,7 +11,7 @@ public class ScrollInfinite : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        totalElements= transform.GetChild(0).GetChild(0).childCount;
     }
 
     // Update is called once per frame

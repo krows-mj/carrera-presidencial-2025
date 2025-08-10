@@ -4,6 +4,7 @@ using System;
 public class SelectedCandidateController : MonoBehaviour
 {
     [SerializeField] private GameObject CardSelected;
+    //[SerializeField] private GameObject Contend; //Contenido
     [Header("Lista de candidatos")]
     [Tooltip("Esta variable no se usa, es solo para que el encabezado funcione")] public int indexCandidate; //Esta variable no sirve, es solo para que el header funcione
 /** Posibilidades xd 
